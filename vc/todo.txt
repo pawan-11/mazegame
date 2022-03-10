@@ -1,0 +1,43 @@
+TODO: 
+
+add bullet aim guideline, different types of bullets and themes
+add settings in gamemenu, music tutorial classic theme contact non contact on off and reset progress
+Add FW or dfs algorithm for pw
+change imagebutton away from stackpane
+change from canvas to blockview nodes
+
+
+change maze.edit, so that it looks at circle outbounds, instead of like a square
+add so that bfs is recalculated from the stuck square indefinitely
+
+// extra features
+
+make switching mazes faster by creating separate thread to draw blockviews
+
+
+add option for gifs or images. static variable. load images using it, if statement
+
+redesign maze view walls. can make better by only extending horizontal xor vertical walls. keeps the square
+
+add setting to adjust ball size (slider), small xtra small, medium large, extralarge, make settings.txt
+
+cuntdown text not centered. can i not figure it out oo 
+fix close open doors in pwmaze
+
+//enter and leave castle. no next and back button :) open and close door to next maze, destroy castle after princess is found?
+
+
+//Make separate project with all the algorithms to teach. bfs dfs greedy djikstra with manuals etc.
+
+
+make soccer color -> move soccer ball to reveal image, have user guess what picture it is. like guessing word
+more points for the more squares that are not revealed. if all are revealed, 0 points and display the answer. kids game fun
+
+//add dodgeball
+
+
+StackTraceElement[] stacktrace = Thread.currentThread().getStackTrace();
+	StackTraceElement e = stacktrace[2];//maybe this number needs to be corrected
+	String methodName = e.getMethodName();
+	System.out.println(methodName);
+

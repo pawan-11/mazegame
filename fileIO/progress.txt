@@ -1,0 +1,13 @@
+progress file
+xp:245 name:Mundi coins:999
+
+preferences:
+music:0 sounds:1 language:English
+
+mazeworld:
+
+princessworld:
+
+mazewar:
+
+end
